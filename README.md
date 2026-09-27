@@ -1,3 +1,4 @@
+# Phising_classifier
 # Phishing Email Classifier — Logistic Regression From Scratch
 
 A tiny binary classification project built with **zero ML libraries**
@@ -126,11 +127,3 @@ python3 visualize.py
 ```
 
 ---
-
-## 7. Why This Project Is Easy to Explain
-
-- Only 2 features → fits on a single 2D graph, no dimensionality problem to hand-wave
-- Every formula (`sigmoid`, `z`, the gradient update) is 1–2 lines of plain Python
-- 12-row dataset small enough to read and reason about by eye
-- The visualization makes the abstract idea of a "decision boundary" a literal line on a picture
-- No hidden library magic — if asked "how does it actually learn?", the answer is fully visible in `train()`
