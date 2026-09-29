@@ -76,7 +76,7 @@ def predict_probability(x1, x2, w1, w2, b):
 # ---------------------------------------------------------------
 # STEP 3: Training with Gradient Descent (the "learning" part)
 # ---------------------------------------------------------------
-def train(data, learning_rate=0.1, epochs=2000):
+def train(data, learning_rate=0.1, epochs=30000):
     # Start with small random weights
     w1 = random.uniform(-1, 1)
     w2 = random.uniform(-1, 1)
